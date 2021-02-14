@@ -10875,9 +10875,9 @@ i.fa-map-marker-alt {
 
 header {
   position: relative;
-  background-image: url("../assets/cows-5819919_1920.jpg");
+  background-image: url("../assets/chef-2585791_1920.jpg");
   background-repeat: no-repeat;
-  background-position: center;
+  background-position: bottom;
   background-attachment: fixed;
   width: 100%;
   opacity: 1;
@@ -10886,8 +10886,12 @@ header {
 @media (max-width: 575.98px) {
   header {
     background-attachment: unset;
-    background-position: left;
+    background-position: center;
   }
+}
+
+div.picture {
+  background-color: rgba(0, 0, 0, 0.705);
 }
 
 nav {
@@ -11001,9 +11005,9 @@ img {
 }
 
 div.contact {
-  background-image: url("../assets/cows-5819919_1920.jpg");
+  background-image: url("../assets/ktryna-wq7VErajAaE-unsplashhh.jpg");
   background-repeat: no-repeat;
-  background-position: center;
+  background-position: right;
   background-attachment: fixed;
   width: 100%;
 }
@@ -11011,7 +11015,7 @@ div.contact {
 @media (max-width: 575.98px) {
   div.contact {
     background-attachment: unset;
-    background-position: top;
+    background-position: left;
   }
 }
 

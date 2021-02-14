@@ -6,14 +6,14 @@
 }
 
 div.contact {
-  background-image: url('../assets/cows-5819919_1920.jpg');
+  background-image: url('../assets/ktryna-wq7VErajAaE-unsplashhh.jpg');
   background-repeat: no-repeat;
-  background-position: center;
+  background-position: right;
   background-attachment: fixed;
   width: 100%;
   @include media-breakpoint-down(xs) {
     background-attachment: unset;
-    background-position:top;
+    background-position:left;
 }
   .container {
     height: 400px;
