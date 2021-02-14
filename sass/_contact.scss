@@ -11,6 +11,10 @@ div.contact {
   background-position: center;
   background-attachment: fixed;
   width: 100%;
+  @include media-breakpoint-down(xs) {
+    background-attachment: unset;
+    background-position:top;
+}
   .container {
     height: 400px;
     display:flex;

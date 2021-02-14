@@ -10853,12 +10853,24 @@ p {
   margin: 0;
 }
 
+@media (max-width: 575.98px) {
+  p {
+    font-size: 1.2rem;
+  }
+}
+
 i {
   padding-right: 5px;
 }
 
 i.fa-map-marker-alt {
   padding-right: 9px;
+}
+
+@media (max-width: 575.98px) {
+  h1 {
+    font-size: 2rem;
+  }
 }
 
 header {
@@ -10869,6 +10881,13 @@ header {
   background-attachment: fixed;
   width: 100%;
   opacity: 1;
+}
+
+@media (max-width: 575.98px) {
+  header {
+    background-attachment: unset;
+    background-position: left;
+  }
 }
 
 nav {
@@ -10901,8 +10920,30 @@ div.jumbotron h1 {
   color: white;
 }
 
+@media (max-width: 575.98px) {
+  div.jumbotron h1 {
+    font-size: 1.7rem;
+  }
+}
+
+div.jumbotron p.lead {
+  font-size: 1.25rem;
+}
+
+@media (max-width: 575.98px) {
+  div.jumbotron p.lead {
+    font-size: 1rem;
+  }
+}
+
 div.jumbotron p.book {
   color: white;
+}
+
+@media (max-width: 575.98px) {
+  div.jumbotron p.book {
+    font-size: 1.5rem;
+  }
 }
 
 div.address {
@@ -10965,6 +11006,13 @@ div.contact {
   background-position: center;
   background-attachment: fixed;
   width: 100%;
+}
+
+@media (max-width: 575.98px) {
+  div.contact {
+    background-attachment: unset;
+    background-position: top;
+  }
 }
 
 div.contact .container {
@@ -11072,11 +11120,11 @@ div.reservation {
 }
 
 button.form-control {
-  width: 20%;
+  width: 100px;
 }
 
 #date {
-  width: 20%;
+  width: 230px;
 }
 
 footer {

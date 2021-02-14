@@ -2,10 +2,14 @@ header {
   position:relative;
   background-image: url('../assets/cows-5819919_1920.jpg');
   background-repeat: no-repeat;
-  background-position: center;
+  background-position:center;
   background-attachment: fixed;
   width: 100%;
   opacity: 1;
+  @include media-breakpoint-down(xs) {
+    background-attachment: unset;
+    background-position:left;
+}
 }
 
 nav {
@@ -32,9 +36,22 @@ div.jumbotron {
   h1 {
     margin-bottom: 7vh;
     color: rgb(255, 255, 255);
+    @include media-breakpoint-down(xs) {
+      font-size: 1.7rem;
   }
+  }
+  p.lead {
+    font-size: 1.25rem;
+    @include media-breakpoint-down(xs) {
+      font-size: 1rem;
+  }
+  }
+  
   p.book {
     color: white;
+    @include media-breakpoint-down(xs) {
+      font-size: 1.5rem;
+  }
   }
 }
 
