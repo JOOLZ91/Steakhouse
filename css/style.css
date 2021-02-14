@@ -10875,9 +10875,9 @@ i.fa-map-marker-alt {
 
 header {
   position: relative;
-  background-image: url("../assets/chef-2585791_1920.jpg");
+  background-image: url("../assets/ktryna-wq7VErajAaE-unsplashhah.jpg");
   background-repeat: no-repeat;
-  background-position: bottom;
+  background-position: center;
   background-attachment: fixed;
   width: 100%;
   opacity: 1;
@@ -10886,7 +10886,7 @@ header {
 @media (max-width: 575.98px) {
   header {
     background-attachment: unset;
-    background-position: center;
+    background-position: right;
   }
 }
 
@@ -11005,7 +11005,7 @@ img {
 }
 
 div.contact {
-  background-image: url("../assets/ktryna-wq7VErajAaE-unsplashhh.jpg");
+  background-image: url("../assets/ktryna-wq7VErajAaE-unsplashhah.jpg");
   background-repeat: no-repeat;
   background-position: right;
   background-attachment: fixed;

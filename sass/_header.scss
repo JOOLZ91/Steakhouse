@@ -1,14 +1,14 @@
 header {
   position:relative;
-  background-image: url('../assets/chef-2585791_1920.jpg');
+  background-image: url('../assets/ktryna-wq7VErajAaE-unsplashhah.jpg');
   background-repeat: no-repeat;
-  background-position:bottom;
+  background-position:center;
   background-attachment: fixed;
   width: 100%;
   opacity: 1;
   @include media-breakpoint-down(xs) {
     background-attachment: unset;
-    background-position:center;
+    background-position:right;
 }
 }
 
