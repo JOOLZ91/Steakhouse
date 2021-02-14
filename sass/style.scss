@@ -1,0 +1,28 @@
+@import 'variables';
+@import "../node_modules/bootstrap/scss/bootstrap";
+@import 'base';
+@import 'header';
+@import 'about';
+@import 'gallery';
+@import 'contact';
+@import 'reservation';
+
+footer {
+  text-align: center;
+  width: 100%;
+  background-color: $primary  
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+

@@ -1,0 +1,21 @@
+section.gallery {
+  background-color: $primary;
+  h1 {
+    margin-bottom: 0;
+  }
+} 
+
+
+div.gallery {
+  background-color: black;
+  padding-bottom: 30px;
+  padding-top: 30px;
+}
+
+p.gallery {
+  color: white;
+}
+
+img {
+  border-radius: 15%;
+}

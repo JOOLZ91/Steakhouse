@@ -1,0 +1,47 @@
+header {
+  position:relative;
+  background-image: url('../assets/cows-5819919_1920.jpg');
+  background-repeat: no-repeat;
+  background-position: center;
+  background-attachment: fixed;
+  width: 100%;
+  opacity: 1;
+}
+
+nav {
+  transition: 1s;
+  background-color: rgb(255, 255, 255);
+}
+nav.scrolled {
+  background-color: rgb(255, 248, 151);
+}
+
+nav.scrolledpink {
+  background-color: rgb(255, 147, 115);
+}
+
+nav.scrolledblue {
+  background-color: rgb(146, 253, 248);
+}
+
+div.jumbotron {
+  color: rgb(255, 248, 151);
+  margin-top: 0vh;
+  margin-bottom: 0;
+  padding-top: 15vh;
+  h1 {
+    margin-bottom: 7vh;
+    color: rgb(255, 255, 255);
+  }
+  p.book {
+    color: white;
+  }
+}
+
+div.address {
+  color: white;
+  position: absolute;
+  bottom: 0px;
+  left: 0px;
+  font-size: 15px;
+}
